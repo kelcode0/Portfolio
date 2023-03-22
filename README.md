@@ -1,4 +1,4 @@
 # Portfolio
 Portfolio Maquetado con Bootstrap
 
-Diseño enfocado a practica, formulario funcional. 
+Diseño Enfocado a practica, formulario funcional. 
