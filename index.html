@@ -114,11 +114,12 @@
             </div>
             <div class="row">
               <div class="col-lg-12 d-flex align-items-center">
-                <a href="#" class="btn btn-primary px-3 me-5">Descargar CV</a>
+                <a href="./assets/pdf/Kelvin Jose Ortiz Hernandez CV.pdf" class="btn btn-primary px-3 me-5" download="
+                KelvinOrtizCV.pdf">Descargar CV</a>
                 <div class="social-links">
-                  <a href="#" class="text-dark me-2"><i class="fa-brands fa-linkedin"></i></a>
-                  <a href="#" class="text-dark me-2"><i class="fa-brands fa-github"></i></a>
-                  <a href="#" class="text-dark me-2"><i class="fa-solid fa-graduation-cap"></i></a>
+                  <a href="https://www.linkedin.com/in/kelvin-ortiz-hernandez-07038a184/" target="_blank" class="text-dark me-2"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="https://github.com/kelcode0" target="_blank" class="text-dark me-2"><i class="fa-brands fa-github"></i></a>
+                  <a href="https://platzi.com/p/kelvinortiz/"  target="_blank" class="text-dark me-2"><i class="fa-solid fa-graduation-cap"></i></a>
                 </div>
               </div>
             </div>
@@ -228,17 +229,17 @@
         <div class="row">
           <div class="col-md-6 col-lg-4">
             <div class="portfolio-item">
-              <img src="./assets/portfolio/1.jpg"  class="w-100 img-thumbnail" alt="">
-              <h3 class="text-capitalize fs-5 my-2">Team Section</h3>
-              <p class="mb-4"><a href="#" class="text-primary text-decoration-none">Live Demo</a></p>
+              <img src="./assets/portfolio/Lading Page.PNG"  class="w-100 img-thumbnail" alt="">
+              <h3 class="text-capitalize fs-5 my-2">Lading Page</h3>
+              <p class="mb-4"><a href="https://kelcode0.github.io/LadingPage-AsycPractice/" target="_blank" class="text-primary text-decoration-none"> Demo</a></p>
             </div>              
           </div>
 
           <div class="col-md-6 col-lg-4">
             <div class="portfolio-item">
-              <img src="./assets/portfolio/2.jpg"  class="w-100 img-thumbnail" alt="">
-              <h3 class="text-capitalize fs-5 my-2">Team Section</h3>
-              <p class="mb-4"><a href="#" class="text-primary text-decoration-none">Live Demo</a></p>
+              <img src="./assets/portfolio/ResponsiveWeb2.PNG"  class="w-100 img-thumbnail" alt="">
+              <h3 class="text-capitalize fs-5 my-2">Web Responsiva</h3>
+              <p class="mb-4"><a href="https://kelcode0.github.io/ResponsiveMobileFirst/"  target="_blank" class="text-primary text-decoration-none">Demo</a></p>
             </div>              
           </div>
 
@@ -341,28 +342,30 @@
           <div class="col-md-7">
             
               <div class="contact-form">
-                <form>
+                <form id="formu" class="form" action="https://formspree.io/f/xzbqavvq"
+                method="POST">
                   <div class="row">
                     <div class="col-lg-6 form-floating mb-4">
-                        <input type="text" class="form-control form-control-lg fs-6 border-0 shadow-sm " id="floatingInput" placeholder="Nombre">
+                        <input name="name" type="text" class="form-control form-control-lg fs-6 border-0 shadow-sm " id="floatingInput" placeholder="Nombre">
                        <label for="floatingInput" class="px-4">Tu Nombre</label>
                     </div>
                     <div class="col-lg-6 form-floating mb-4">
-                      <input type="email" class="form-control form-control-lg fs-6 border-0 shadow-sm " id="floatingInput" placeholder="example@mail.com">
+                      <input name="email"
+                       type="email" class="form-control form-control-lg fs-6 border-0 shadow-sm " id="floatingInput" placeholder="example@mail.com">
                       <label for="floatingInput ms-3" class="px-4"> Tu Correo</label>
                     </div>
                   </div>
 
                   <div class="row">
                     <div class="col-lg-12 form-floating mb-4">
-                      <input type="text" class="form-control form-control-lg fs-6 border-0 shadow-sm " id="floatingInput" placeholder="Motivo">
+                      <input name="message" type="text" class="form-control form-control-lg fs-6 border-0 shadow-sm " id="floatingInput" placeholder="Motivo">
                       <label for="floatingInput ms-3" class="px-4">Motivo</label>
                     </div>                   
                   </div>
 
                   <div class="row">
                     <div class="col-lg-12 form-floating mb-4">
-                      <textarea class="form-control form-control-lg fs-6 border-0 shadow-sm" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                      <textarea  name="message" class="form-control form-control-lg fs-6 border-0 shadow-sm" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
                        <label for="floatingTextarea2" class="px-4">Mensaje</label>
                     </div>
                   </div>
@@ -401,5 +404,6 @@
 
 
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
